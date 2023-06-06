@@ -1,1 +1,5 @@
-install_scripts( check_staged_status.sh )
+install_scripts(
+  "check_staged_status.sh"
+  "makeStrippedTarball.sh"
+  )
+

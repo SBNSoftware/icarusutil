@@ -4,7 +4,7 @@
 # The version should be of the form vxx_yy_zz (e.g. v01_02_03)
 parent icarusutil v09_75_00
 
-defaultqual e19
+defaultqual e20
 
 # These optional lines define the installed directories where headers,
 # libraries, and executables will be found.
@@ -44,7 +44,7 @@ table_fragment_end
 
 product          version
 art_root_io     v1_11_03
-larbatch        v01_58_00
+larbatch        v01_59_02
 pycurl          -		-	optional
 
 cetbuildtools	v8_18_04	-	only_for_build
@@ -56,10 +56,12 @@ end_product_list
 qualifier		art_root_io         larbatch	   pycurl	notes
 e20:debug		e20:debug	    -nq-		-nq-
 e20:prof		e20:prof	    -nq-		-nq-
-e19:debug		e19:debug	    -nq-		-nq-
-e19:prof		e19:prof	    -nq-		-nq-
+e26:debug		e26:debug	    -nq-		-nq-
+e26:prof		e26:prof	    -nq-		-nq-
+c14:debug		c14:debug	    -nq-		-nq-
+c14:prof	    	c14:prof            -nq-		-nq-
 c7:debug		c7:debug	    -nq-		-nq-
-c7:prof	    	c7:prof	        -nq-		-nq-
+c7:prof		c7:prof		    -nq-		-nq-
 end_qualifier_list
 
 # Preserve tabs and formatting in emacs and vi / vim:

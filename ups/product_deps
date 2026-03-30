@@ -2,7 +2,7 @@
 
 # The *parent* line must the first non-commented line and defines this product and version
 # The version should be of the form vxx_yy_zz (e.g. v01_02_03)
-parent icarusutil v09_88_00_02
+parent icarusutil v10_15_00
 
 defaultqual e20
 
@@ -44,7 +44,7 @@ table_fragment_end
 
 product          version
 art_root_io     v1_13_06
-larbatch        v01_61_01
+larbatch        v01_61_04
 pycurl          -		-	optional
 
 cetbuildtools	v8_18_04	-	only_for_build
